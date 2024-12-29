@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.furniro-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41.45px;
+
+  
+  /* New properties */
+  width: 130px;
+  height: 41px;
+
+
+}
+
+.furniro-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.furniro-logo-img {
+  width: 50px;
+  height: 32px;
+}
+
+/* Global Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+background-color: #fafafa; /* Background color */
+color: #333; /* Text color */
+}
+
+@media (max-width: 768px) {
+  div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* inspiration */
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4rem;
+  background-color: #f8f4f1;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  box-sizing: border-box;
+  
+
+}
+
+.text-section {
+  max-width: 40%;
+  margin-right: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.125rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.explore-button {
+  background-color: #f0b60c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.main-image img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.thumbnail-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.thumbnail-container img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+
+.header-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.header-text-light {
+  font-size: 16px;
+  color: #4A4A4A; /* Grayish text */
+  margin: 0;
+}
+
+.header-text-bold {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000; /* Bold black text */
+  margin: 5px 0;
+}
